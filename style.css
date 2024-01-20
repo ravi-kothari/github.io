@@ -1,1 +1,18 @@
+/* Basic styling example - adjust as needed for your desired look */
+body {
+    font-family: sans-serif; /* Choose your preferred font */
+}
 
+.hero {
+    background-image: url("images/hero_background.jpg");
+    background-size: cover;
+    background-position: center;
+    /* ... more styling for the hero section ... */
+}
+
+.chai-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust column layout as needed */
+    grid-gap: 20px; /* Adjust the spacing */
+}
+/* ... more styling for other sections/elements ... */
